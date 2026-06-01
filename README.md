@@ -102,3 +102,7 @@ MIT License
 让每一个院系都拥有属于自己的知识社区。
 
 Build knowledge. Share experience. Grow together.
+
+# 项目截图
+
+![alt text](image.png)
