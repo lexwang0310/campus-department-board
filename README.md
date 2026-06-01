@@ -1,77 +1,36 @@
-# 🎓 Campus Department Board
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-一个面向大学院系的在线留言与交流平台。
+## Getting Started
 
-帮助学生快速获取课程信息、考试经验、实习资源和院系通知，打造院系内部高质量知识共享社区。
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## ✨ 项目简介
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Campus Department Board（院系留言板）是一个基于 Next.js + Supabase 构建的现代化校园社区平台。
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-学生可以：
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 发布院系相关帖子
-- 浏览课程经验
-- 分享学习资源
-- 讨论考试内容
-- 获取实习就业信息
-- 收藏优质内容
-- 与同院系同学交流互动
+## Learn More
 
-项目采用 Serverless 架构设计，支持快速开发与部署。
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🏗️ 技术栈
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Frontend
-- Next.js 15
-- React
-- TypeScript
-- Tailwind CSS
+## Deploy on Vercel
 
-### Backend
-- Supabase Auth
-- PostgreSQL
-- Supabase Storage
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### DevOps
-- GitHub
-- Vercel
-
----
-
-## 🎯 产品目标
-
-- 降低院系信息获取成本
-- 建立知识沉淀社区
-- 提高学生参与度
-- 提升院系交流效率
-
----
-
-## 🚀 MVP 功能
-
-- 用户登录
-- 浏览帖子
-- 发布帖子
-- 评论系统
-- 搜索功能
-- 收藏功能
-- 点赞功能
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-## 🎓 项目愿景
-
-让每一个院系都拥有属于自己的知识社区。
-
-Build knowledge. Share experience. Grow together.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
